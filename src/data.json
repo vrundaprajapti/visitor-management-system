@@ -1,0 +1,87 @@
+{
+  "visitors": [
+    {
+      "name": "Seeta",
+      "email": "Seeta@gmail.com",
+      "phone": "2347896249",
+      "company": "ADHSGJKFHD",
+      "checkInTime": "2023-04-16T21:27",
+      "checkOutTime": "2023-04-24T21:28",
+      "id": 5
+    }
+  ],
+  "registered": [
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "role": "visitor",
+      "email": "vrunda.174@gmail.com",
+      "phone": "08320347968",
+      "company": "hello",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "checkInTime": "2023-04-17T05:55:28.396Z",
+      "checkOutTime": "2023-04-17T05:55:28.396Z",
+      "id": 11
+    },
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "role": "visitor",
+      "email": "vrunda.174@gmail.com",
+      "phone": "08320347968",
+      "company": "hello",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "checkInTime": "2023-04-17T13:46:57.798Z",
+      "checkOutTime": "2023-04-17T13:46:57.798Z",
+      "id": 12
+    },
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "role": "visitor",
+      "email": "vrunda.174@gmail.com",
+      "phone": "08320347968",
+      "company": "vrunda.174@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "checkInTime": "2023-04-18T18:04:38.931Z",
+      "checkOutTime": "2023-04-18T18:04:38.931Z",
+      "id": 13
+    },
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "role": "visitor",
+      "email": "vrunda.174@gmail.com",
+      "phone": "08320347968",
+      "company": "hellojj",
+      "password": "1234",
+      "confirmPassword": "123",
+      "checkInTime": "2023-04-19T02:20:07.331Z",
+      "checkOutTime": "2023-04-19T02:20:07.331Z",
+      "id": 14
+    }
+  ],
+  "queries": [
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "email": "vrunda.174@gmail.com",
+      "query": "NOTHING",
+      "date": "2023-04-17T05:56:40.433Z",
+      "id": 5,
+      "reply": "pqr"
+    },
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "email": "vrunda.174@gmail.com",
+      "query": "water",
+      "date": "2023-04-18T15:14:32.379Z",
+      "id": 8
+    },
+    {
+      "name": "Prajapati Vrunda Ramavadh",
+      "email": "vrunda.174@gmail.com",
+      "query": "xyz",
+      "date": "2023-04-19T02:24:29.815Z",
+      "id": 9
+    }
+  ]
+}

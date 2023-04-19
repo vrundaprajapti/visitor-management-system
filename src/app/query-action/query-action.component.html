@@ -1,0 +1,33 @@
+<div class="container-fluid mt-4 cover">
+  <div class="row">
+    <div class="col-md-12 mx-auto text-center">
+      <h1>Queries</h1>
+      <table class="table table-striped my-table w-100">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Query</th>
+            <th>Date</th>
+            <th>Reply</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let query of queries">
+            <td>{{query.name}}</td>
+            <td>{{query.email}}</td>
+            <td>{{query.query}}</td>
+            <td>{{query.date | date:'MMM d, y h:mm a'}}</td>
+            <td>{{query.reply}}</td>
+            <td>
+              <button class="btn btn-sm btn-danger mr-4" (click)="deleteQuery(query)">Delete</button>
+              <button class="btn btn-sm btn-success mr-4" (click)="addReply(query)">Add Reply</button>
+              <button class="btn btn-sm btn-primary" (click)="editReply(query)">Update Reply</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

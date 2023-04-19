@@ -1,0 +1,38 @@
+<div class="card mb-5">
+    <div class="card-header">
+      <h1 class="text-center mb-0">Online Visitor List</h1>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover text-center">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Company</th>
+            <th>Check-In Time</th>
+            <th>Check-Out Time</th>
+            <th>Actions</th>
+            <th>Add Visitor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let visitor of visitors">
+            <td>{{ visitor.name }}</td>
+            <td>{{ visitor.email }}</td>
+            <td>{{ visitor.phone }}</td>
+            <td>{{ visitor.company }}</td>
+            <td>{{visitor.checkInTime | date:'MMM d, y h:mm a'}}</td>
+            <td>{{visitor.checkOutTime | date:'MMM d, y h:mm a'}}</td>
+            <td>
+              <button class="btn btn-danger mr-2" (click)="deleteonlienVisitors(visitor.id)">Delete</button>
+            </td>
+            <td>
+              <button class="btn btn-primary mr-2" (click)="addonelinevisitor()">Add Visitor</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
